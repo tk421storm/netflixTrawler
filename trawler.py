@@ -1,3 +1,17 @@
+'''
+
+expects:
+queue.html - full html output of dvd queue from netflix.com (full html can be gotten through dev console)
+myList.html - full html output of netflix instant queue (My List)
+
+returns:
+output.txt - list of urls in DVD queue, available on instant but not in my List (yet)
+
+
+'''
+
+
+
 import re
 
 queueFile=open("queue.html","r")
